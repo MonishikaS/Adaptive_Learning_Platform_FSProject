@@ -1,0 +1,137 @@
+/* 🌈 General Layout */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #333;
+  min-height: 100vh;
+}
+
+/* 🧱 Container */
+.container {
+  background: #ffffffd9;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+/* 🧭 Headings */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+h2, h3 {
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+/* 🧠 Buttons */
+button {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #5a67d8, #6b46c1);
+  transform: scale(1.05);
+}
+
+/* 📦 Inputs */
+input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+/* ⚠️ Alert & Info Styles */
+.alert {
+  background: #ffe6e6;
+  color: #b22222;
+  border: 1px solid #ffb3b3;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px auto;
+  width: 70%;
+}
+
+.hint-box {
+  background: #fff8d6;
+  border: 1px solid #f1c40f;
+  color: #7d6608;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 15px auto;
+  width: 70%;
+}
+
+/* 🧾 Quiz Options */
+.subject-btn {
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 16px;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.subject-btn:hover {
+  background-color: #d5cfff;
+}
+
+.subject-btn.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* 🎉 Result Screen */
+.result-box {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.result-box:hover {
+  transform: scale(1.02);
+}
+
+/* ⏰ Timer */
+.timer {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* 🧑‍🏫 Instructor Panel */
+.instructor {
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px auto;
+  width: 80%;
+}
